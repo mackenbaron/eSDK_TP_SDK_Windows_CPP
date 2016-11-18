@@ -1,0 +1,45 @@
+﻿Build started 2016/8/29 16:31:32.
+     1>Project "D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\tpConferencesControlSample\tpConferencesControlSample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\input\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\input\include\ /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt tpConferencesControlSample.cpp tpConferencesControlSampleDlg.cpp TpControlConferenceDlg.cpp TpLoginDlg.cpp
+         TpLoginDlg.cpp
+         TpControlConferenceDlg.cpp
+         tpConferencesControlSampleDlg.cpp
+         tpConferencesControlSample.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _AFXDLL /l"0x0409" /IDebug\ /nologo /fo"Debug\tpConferencesControlSample.res" tpConferencesControlSample.rc 
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.embed.manifest.res" Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo_manifest.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\input\lib\debug\ TP_Native_SDK.lib /MANIFEST /ManifestFile:"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.lib" /MACHINE:X86 Debug\tpConferencesControlSample.res
+         Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\tpConferencesControlSample.obj
+         Debug\tpConferencesControlSampleDlg.obj
+         Debug\TpControlConferenceDlg.obj
+         Debug\TpLoginDlg.obj
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.embed.manifest" /manifest Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.intermediate.manifest "d:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.embed.manifest.res" Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo_manifest.rc 
+       LinkEmbedManifest:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\input\lib\debug\ TP_Native_SDK.lib /MANIFEST /ManifestFile:"Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.lib" /MACHINE:X86 Debug\tpConferencesControlSample.res
+         Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe.embed.manifest.res
+         Debug\stdafx.obj
+         Debug\tpConferencesControlSample.obj
+         Debug\tpConferencesControlSampleDlg.obj
+         Debug\TpControlConferenceDlg.obj
+         Debug\TpLoginDlg.obj
+         tpConferencesControlSample.vcxproj -> D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.unsuccessfulbuild".
+         Touching "Debug\eSDK_TP_Native_CPP_ConfCtrl_Demo.lastbuildstate".
+     1>Done Building Project "D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_ConferencesControl_CPP_Demo\tpConferencesControlSample\tpConferencesControlSample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.70

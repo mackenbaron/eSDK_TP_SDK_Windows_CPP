@@ -1,0 +1,66 @@
+﻿Build started 2016/8/29 16:34:49.
+     1>Project "D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\TP_Native_Demo\TP_Native_Demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\TP_Native_Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../input/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\TP_Native_Demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../input/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\TP_Native_Demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt base64.cpp CSHADigest.cpp TP_Native_AddSiteTOConfDlg.cpp TP_Native_AdhocConfTempManage.cpp TP_Native_AllSitesList.cpp TP_Native_BroadcastSiteDlg.cpp TP_Native_ConfControl.cpp TP_Native_ConfManageDlg.cpp TP_Native_ConnectSiteDlg.cpp TP_Native_Demo.cpp TP_Native_DemoDlg.cpp TP_Native_MangerDlg.cpp TP_Native_OtherInterface.cpp TP_Native_ScheduleConfDlg.cpp TP_Native_Sheet.cpp TP_Tool.cpp
+         base64.cpp
+         CSHADigest.cpp
+         TP_Native_AddSiteTOConfDlg.cpp
+     1>TP_Native_AddSiteTOConfDlg.cpp(162): warning C4018: '<' : signed/unsigned mismatch
+         TP_Native_AdhocConfTempManage.cpp
+         TP_Native_AllSitesList.cpp
+         TP_Native_BroadcastSiteDlg.cpp
+         TP_Native_ConfControl.cpp
+         TP_Native_ConfManageDlg.cpp
+     1>TP_Native_ConfManageDlg.cpp(392): warning C4018: '<' : signed/unsigned mismatch
+     1>TP_Native_ConfManageDlg.cpp(426): warning C4018: '<' : signed/unsigned mismatch
+     1>TP_Native_ConfManageDlg.cpp(563): warning C4018: '<' : signed/unsigned mismatch
+         TP_Native_ConnectSiteDlg.cpp
+     1>TP_Native_ConnectSiteDlg.cpp(94): warning C4018: '<' : signed/unsigned mismatch
+         TP_Native_Demo.cpp
+         TP_Native_DemoDlg.cpp
+         TP_Native_MangerDlg.cpp
+         TP_Native_OtherInterface.cpp
+     1>TP_Native_OtherInterface.cpp(405): warning C4018: '<' : signed/unsigned mismatch
+     1>TP_Native_OtherInterface.cpp(408): warning C4018: '<' : signed/unsigned mismatch
+         TP_Native_ScheduleConfDlg.cpp
+     1>TP_Native_ScheduleConfDlg.cpp(311): warning C4018: '<' : signed/unsigned mismatch
+     1>TP_Native_ScheduleConfDlg.cpp(461): warning C4018: '<' : signed/unsigned mismatch
+         TP_Native_Sheet.cpp
+         TP_Tool.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\TP_Native_Demo.res" TP_Native_Demo.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\Release\TP_Native_Demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../input/lib/Release /LIBPATH:../Release TP_Native_SDK.lib /MANIFEST /ManifestFile:"Release\TP_Native_Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\Release\TP_Native_Demo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\Release\TP_Native_Demo.lib" /MACHINE:X86 Release\TP_Native_Demo.res
+         Release\base64.obj
+         Release\CSHADigest.obj
+         Release\stdafx.obj
+         Release\TP_Native_AddSiteTOConfDlg.obj
+         Release\TP_Native_AdhocConfTempManage.obj
+         Release\TP_Native_AllSitesList.obj
+         Release\TP_Native_BroadcastSiteDlg.obj
+         Release\TP_Native_ConfControl.obj
+         Release\TP_Native_ConfManageDlg.obj
+         Release\TP_Native_ConnectSiteDlg.obj
+         Release\TP_Native_Demo.obj
+         Release\TP_Native_DemoDlg.obj
+         Release\TP_Native_MangerDlg.obj
+         Release\TP_Native_OtherInterface.obj
+         Release\TP_Native_ScheduleConfDlg.obj
+         Release\TP_Native_Sheet.obj
+         Release\TP_Tool.obj
+         TP_Native_Demo.vcxproj -> D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\Release\TP_Native_Demo.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\Release\TP_Native_Demo.exe;#1" /manifest Release\TP_Native_Demo.exe.intermediate.manifest "d:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\TP_Native_Demo.unsuccessfulbuild".
+         Touching "Release\TP_Native_Demo.lastbuildstate".
+     1>Done Building Project "D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_Native_CPP_Demo\TP_Native_Demo\TP_Native_Demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.84

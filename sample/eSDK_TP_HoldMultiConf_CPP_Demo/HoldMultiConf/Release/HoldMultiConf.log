@@ -1,0 +1,31 @@
+﻿Build started 2016/8/29 16:32:32.
+     1>Project "D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\HoldMultiConf\HoldMultiConf.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../input/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../input/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _MBCS /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt HoldMultiConf.cpp HoldMultiConfDlg.cpp
+         HoldMultiConf.cpp
+         HoldMultiConfDlg.cpp
+     1>HoldMultiConfDlg.cpp(770): warning C4018: '<' : signed/unsigned mismatch
+       ResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _AFXDLL /l"0x0409" /IRelease\ /nologo /fo"Release\HoldMultiConf.res" HoldMultiConf.rc 
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../input/lib/Release TP_Native_SDK.lib /MANIFEST /ManifestFile:"Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.lib" /MACHINE:X86 Release\HoldMultiConf.res
+         Release\HoldMultiConf.obj
+         Release\HoldMultiConfDlg.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         HoldMultiConf.vcxproj -> D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.exe;#1" /manifest Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.exe.intermediate.manifest "d:\Program Files\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.unsuccessfulbuild".
+         Touching "Release\eSDK_TP_Native_CPP_HoldMultiConf_Demo.lastbuildstate".
+     1>Done Building Project "D:\work\github\eSDK_TP_SDK_Windows_CPP\eSDK_TP_SDK_Windows_CPP\sample\eSDK_TP_HoldMultiConf_CPP_Demo\HoldMultiConf\HoldMultiConf.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.14
